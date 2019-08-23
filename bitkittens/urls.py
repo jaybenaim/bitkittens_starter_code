@@ -18,4 +18,5 @@ from bitkittens import views
 
 urlpatterns = [
     path('', views.home),
+    path('cats/api', views.cats_api, name="cats_api"), 
 ]
